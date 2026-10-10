@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+[project]
+name = "diffctrl"
+version = "0.1.0"
+description = "ControlNet + SDXL for spatially-conditioned image generation with LoRA fine-tuning"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Sherif Abd El-Rady", email = "sherifabdelrady@gmail.com" }]
+keywords = ["controlnet","stable-diffusion","sdxl","lora","diffusers","image-generation","pytorch"]
+dependencies = ["torch>=2.0","diffusers>=0.24","transformers>=4.37","accelerate","xformers","peft","pillow","numpy","opencv-python"]
+[project.urls]
+Homepage = "https://sherifabdelrady.github.io/cv-portfolio/"
+Repository = "https://github.com/sherifabdelrady/diffctrl"
+[tool.ruff]
+line-length = 120

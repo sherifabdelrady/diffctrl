@@ -1,0 +1,11 @@
+torch>=2.0
+torchvision>=0.15
+diffusers>=0.24
+transformers>=4.37
+accelerate
+xformers
+peft
+pillow
+numpy
+opencv-python
+controlnet-aux
